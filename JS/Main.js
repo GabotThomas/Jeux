@@ -2,7 +2,7 @@ $(document).ready(function(){
     var object = [
         {
             page:1,
-            titre:'Remote game',
+            titre:'Daily Game',
             img : 'logo.png',
             text :"",
             choix1: "",
@@ -51,7 +51,7 @@ $(document).ready(function(){
             nextstep1:1,
             nextstep2:1,
             retour:1,
-            bouton:"Recommencer"
+            bouton:" "
         }, 
 
 
@@ -91,7 +91,7 @@ $(document).ready(function(){
             nextstep1:4,
             nextstep2:4,
             retour:4,
-            bouton:"Recommencer"
+            bouton:" "
         }, 
 
 
@@ -136,7 +136,7 @@ $(document).ready(function(){
             nextstep1:7,
             nextstep2:7,
             retour:7,
-            bouton:"Recommencer"
+            bouton:" "
         }, 
 
 
@@ -176,7 +176,7 @@ $(document).ready(function(){
             nextstep1:10,
             nextstep2:10,
             retour:10,
-            bouton:"Recommencer"
+            bouton:" "
         }, 
 
 
@@ -217,7 +217,7 @@ $(document).ready(function(){
             nextstep1:13,
             nextstep2:13,
             retour:13,
-            bouton:"Recommencer"
+            bouton:" "
         }, 
         
         

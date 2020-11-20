@@ -77,17 +77,18 @@ main{
     width: 100%;
     letter-spacing: 2px;
 }
-.header svg{
+#back{
     position: absolute;
     left: 30px;
     top: 50%;
     transform: translateY(-50%);
     width: 25px;
+    height: 25px;
     cursor: pointer;
+    background: url(../IMG/back.svg) no-repeat 0 center;
+    background-size: contain;
 }
-.header svg path{
-    fill: #263940;
-}
+
 .container-img{
     
 }
@@ -162,11 +163,19 @@ main{
 .pres .contain-choice{
     display: none;
 }
+.pres #back{
+    display: none;
+}
 .rep .contain-choice{
     display: none;
 }
-.bon-rep .contain-next svg{
+.bon-rep .contain-next .next-svg svg{
     display: block;
-    height: 40px;
+    height: 100px;
+    width: auto;
+}
+.mauv-rep .contain-next .next-svg2 svg{
+    display: block;
+    height: 100px;
     width: auto;
 }
