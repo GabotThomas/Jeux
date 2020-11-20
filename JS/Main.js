@@ -60,7 +60,7 @@ $(document).ready(function(){
         {   //4
             page:2,
             titre:'Call du matin',
-            img : 'cb-call.png',
+            img : 'cbcall.png',
             text :"Tu t'apprêtes à rédiger un mail client, mais ton patron t’appelle en visio pour une réu importante.",
             choix1: "Tu refuses le cal, tu trouveras bien une excuse.",
             choix2: "Tu acceptes le call prêt à travailler et à réussir ta vie.",
@@ -72,7 +72,7 @@ $(document).ready(function(){
         {
             page:3,
             titre:'Fin Tragique',
-            img : 'ft-call.png',
+            img : 'ftcall.png',
             text :"Ton patron habite au dessus de chez toi. Furieux, il débarque dans ton appart et saccage tout. Oui, ton patron finira en prison, mais toi, tu es mort et re-mort.",
             choix1:"" ,
             choix2:"" ,
@@ -129,7 +129,7 @@ $(document).ready(function(){
         {
             page:4,
             titre:'Fin tragique',
-            img : 'ft-pause.png',
+            img : 'ftpause.png',
             text :"Le reste de bouffe d’hier se sent délaissé. D’un grincement, la porte du frigo s’ouvre, et un mix de pâtes au thon et de yaourts bon marché se rue sur toi pour te tuer.",
             choix1: "",
             choix2: "",
@@ -157,7 +157,7 @@ $(document).ready(function(){
         {
             page:3,
             titre:"C'est bien",
-            img : 'cb-netflix.png',
+            img : 'cbnetflix.png',
             text :"Ton corps est désormais bien sculpté. Le mojo qui se dégage de toi est palpable. Ton crush like ta photo de profil !",
             choix1: "",
             choix2: "",
@@ -169,7 +169,7 @@ $(document).ready(function(){
         {
             page:4,
             titre:'Fin tragique',
-            img : 'fin-netflix.png',
+            img : 'finnetflix.png',
             text :"Tu es plongé dans l’histoire. Littéralement. Ton esprit est aspiré par la télévision et… Tu deviens un zombie à ton tour. Au moins tu regardais pas TPMP (non pas que ça change quelque chose…).",
             choix1: "",
             choix2: "",
@@ -210,7 +210,7 @@ $(document).ready(function(){
         {
             page:4,
             titre:'Fin tragique',
-            img : 'coucher-tragique.PNG',
+            img : 'ftcoucher.PNG',
             text :"Tu savais que devant un écran, on cligne moins souvent des yeux ? Tes globes oculaires se dessèchent et tombent de leurs orbites. Maintenant tu sais.",
             choix1: "",
             choix2: "",
