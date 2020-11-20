@@ -67,6 +67,7 @@ main{
     height: 100px;
     display: flex;
     align-items: center;
+    position: relative;
 
 }
 .header h1{
@@ -76,16 +77,26 @@ main{
     width: 100%;
     letter-spacing: 2px;
 }
-
+.header svg{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    cursor: pointer;
+}
+.header svg path{
+    fill: #263940;
+}
 .container-img{
     
 }
 .container-img img{
     display: block;
     margin:auto;
-    width: 100%;
     max-width: 300px;
     height: auto;
+    max-height: 300px;
 }
 .contain-text{
 
@@ -94,10 +105,11 @@ main{
 .contain-text p{
     color: #263940;
     text-align: justify;
+    font-size: 17px;
 }
 .contain-choice{
     display: flex;
-    padding: 20px 0;
+    padding: 10px 0;
     justify-content: center;
 }
 .contain-choice ul{
@@ -109,8 +121,9 @@ main{
 
 }
 .contain-choice ul li{
-    margin: 0;
+    margin: 10px 0;
     cursor: pointer;
+    font-size: 15px;
 }
 .contain-choice ul li.active{
     text-decoration: underline;
