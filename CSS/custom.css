@@ -185,3 +185,16 @@ main{
     width: auto;
 }
 
+.fin .choice-item{
+    display: none;
+}
+.fin .contain-text p{
+    text-align: center;
+    font-size: 50px;
+}
+.fin .contain-text {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
