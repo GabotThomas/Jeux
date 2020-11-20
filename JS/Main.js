@@ -210,7 +210,7 @@ $(document).ready(function(){
         {
             page:4,
             titre:'Fin tragique',
-            img : 'ftcoucher.PNG',
+            img : 'ftcoucher.png',
             text :"Tu savais que devant un écran, on cligne moins souvent des yeux ? Tes globes oculaires se dessèchent et tombent de leurs orbites. Maintenant tu sais.",
             choix1: "",
             choix2: "",
