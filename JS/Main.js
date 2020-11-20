@@ -10,7 +10,7 @@ $(document).ready(function(){
             nextstep1:1,
             nextstep2:1,
             retour:0,
-            bouton:"Jouer"
+            bouton:""
         },
 
 
@@ -264,7 +264,6 @@ $(document).ready(function(){
         $("li").removeClass("active");
         $(".choice-item").eq(0).addClass('active')
         $(".choice-item > p").eq(1).text(object[i].choix2)
-        $("#next").text(object[i].bouton);
     };
 
 });

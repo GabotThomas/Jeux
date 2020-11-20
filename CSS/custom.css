@@ -179,3 +179,9 @@ main{
     height: 100px;
     width: auto;
 }
+.pres .contain-next .play svg{
+    display: block;
+    height: 100px;
+    width: auto;
+}
+
