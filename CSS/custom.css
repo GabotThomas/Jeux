@@ -60,7 +60,7 @@ main{
     background-color: white;
     margin: auto;
     border-radius: 20px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .header{
     width: 100%;

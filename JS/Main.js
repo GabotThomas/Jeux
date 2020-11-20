@@ -60,7 +60,7 @@ $(document).ready(function(){
         {   //4
             page:2,
             titre:'Call du matin',
-            img : 'call.png',
+            img : 'cb-call.png',
             text :"Tu t'apprêtes à rédiger un mail client, mais ton patron t’appelle en visio pour une réu importante.",
             choix1: "Tu refuses le cal, tu trouveras bien une excuse.",
             choix2: "Tu acceptes le call prêt à travailler et à réussir ta vie.",
@@ -72,7 +72,7 @@ $(document).ready(function(){
         {
             page:3,
             titre:'Fin Tragique',
-            img : 'call.png',
+            img : 'ft-call.png',
             text :"Ton patron habite au dessus de chez toi. Furieux, il débarque dans ton appart et saccage tout. Oui, ton patron finira en prison, mais toi, tu es mort et re-mort.",
             choix1:"" ,
             choix2:"" ,
@@ -117,7 +117,7 @@ $(document).ready(function(){
         {
             page:3,
             titre:"C'est bien",
-            img : 'manger.png',
+            img : 'potato.png',
             text :"Tu te remplis la panse, devant “Happy tree friends”. Heureux de manger ton plat préféré, tu profite de cette pause bien méritée !",
             choix1: "",
             choix2: "",
@@ -129,7 +129,7 @@ $(document).ready(function(){
         {
             page:4,
             titre:'Fin tragique',
-            img : 'manger.png',
+            img : 'ft-pause.png',
             text :"Le reste de bouffe d’hier se sent délaissé. D’un grincement, la porte du frigo s’ouvre, et un mix de pâtes au thon et de yaourts bon marché se rue sur toi pour te tuer.",
             choix1: "",
             choix2: "",
@@ -157,7 +157,7 @@ $(document).ready(function(){
         {
             page:3,
             titre:"C'est bien",
-            img : 'netflix.png',
+            img : 'cb-netflix.png',
             text :"Ton corps est désormais bien sculpté. Le mojo qui se dégage de toi est palpable. Ton crush like ta photo de profil !",
             choix1: "",
             choix2: "",
@@ -198,7 +198,7 @@ $(document).ready(function(){
         {
             page:3,
             titre:"C'est bien",
-            img : 'coucher.png',
+            img : 'licorne.png',
             text :"Ta journée s’est parfaitement déroulée ! Grâce à ton courage et ta persévérance, tu as réussi à : décrocher une prime, amorcer une discussion avec ton crush, avoir un corps de rêve, tout en te gardant du temps pour toi et avec tes amis ! Voilà une médaille. Tu peux l’imprimer, l’encadrer et te rappeler à quel point tu es génial chaque fois que tu poseras les yeux dessus !",
             choix1: "",
             choix2: "",
