@@ -152,6 +152,42 @@ $(document).ready(function(){
             nextstep2:13,
             retour:10,
         }, 
+
+
+
+
+        {
+            //13
+            titre:'Se coucher',
+            img : 'coucher.png',
+            text :"Après une longue journée, il est enfin temps que tu ailles te reposer.",
+            choix1: "Après un chapitre de ton roman du moment, tu vas rejoindre les bras de Morphée, tu as rendez-vous avec elle avant minuit.",
+            choix2: "Tu vas juste faire un petit tour sur le compte Instagram de @infinityscroll.",
+            nextstep1:14,
+            nextstep2:15,
+            retour:10,
+        }, 
+        {
+            titre:"C'est bien",
+            img : 'coucher.png',
+            text :"Ta journée s’est parfaitement déroulée ! Grâce à ton courage et ta persévérance, tu as réussi à : décrocher une prime, amorcer une discussion avec ton crush, avoir un corps de rêve, tout en te gardant du temps pour toi et avec tes amis ! Voilà une médaille. Tu peux l’imprimer, l’encadrer et te rappeler à quel point tu es génial chaque fois que tu poseras les yeux dessus !",
+            choix1: "",
+            choix2: "",
+            nextstep1:16,
+            nextstep2:16,
+            retour:13,
+        }, 
+        {
+            titre:'Fin tragique',
+            img : 'coucher-tragique.PNG',
+            text :"Tu savais que devant un écran, on cligne moins souvent des yeux ? Tes globes oculaires se dessèchent et tombent de leurs orbites. Maintenant tu sais.",
+            choix1: "",
+            choix2: "",
+            nextstep1:16,
+            nextstep2:16,
+            retour:13,
+        }, 
+        
         
            
     ];
