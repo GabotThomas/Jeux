@@ -27,7 +27,7 @@ $(document).ready(function(){
         },
         {
             titre:"C'est bien",
-            img : 'energie.jpg',
+            img : 'energie.png',
             text :"Tu es débordant d’énergie. Tes yeux brillent et tes cheveux se dressent sur ta tête. Tu es en mode Super Saiyan, rien ne peut t’arrêter, Thor peut aller se rhabiller.",
             choix1: "",
             choix2: "",
@@ -37,7 +37,7 @@ $(document).ready(function(){
         },
         {
             titre:'Fin Tragique',
-            img : '1.jpg',
+            img : 'chat.png',
             text :"Voyant que tu t’es rendormi, ton chat vient s’allonger sur ton visage en ronronnant. Tu meurs, étouffé dans ton sommeil. On te l’avait bien dit de prendre un poisson rouge.",
             choix1: "",
             choix2: "",
@@ -144,7 +144,7 @@ $(document).ready(function(){
         }, 
         {
             titre:'Fin tragique',
-            img : 'fin-netflix.jpg',
+            img : 'fin-netflix.png',
             text :"Tu es plongé dans l’histoire. Littéralement. Ton esprit est aspiré par la télévision et… Tu deviens un zombie à ton tour. Au moins tu regardais pas TPMP (non pas que ça change quelque chose…).",
             choix1: "",
             choix2: "",
