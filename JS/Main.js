@@ -62,7 +62,7 @@ $(document).ready(function(){
         }
     });
     function remplace(object,i){
-        $("#img").attr("src","/IMG/"+object[i].img);
+        $("#img").attr("src","./IMG/"+object[i].img);
         $("#text").text(object[i].text);
         $(".choice-item").eq(0).text(object[i].choix1)
         $("li").removeClass("active");
