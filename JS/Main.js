@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var object = [
         {
+            page:1,
             titre:'Remote game',
             img : 'logo.png',
             text :"",
@@ -9,12 +10,14 @@ $(document).ready(function(){
             nextstep1:1,
             nextstep2:1,
             retour:0,
+            bouton:"Jouer"
         },
 
 
 
 
         {//1
+            page:2,
             titre:'Réveil',
             img : 'Bienvenue',
             img : '1.png',
@@ -24,8 +27,10 @@ $(document).ready(function(){
             nextstep1:3,
             nextstep2:2,
             retour:0,
+            bouton:""
         },
         {
+            page:3,
             titre:"C'est bien",
             img : 'energie.png',
             text :"Tu es débordant d’énergie. Tes yeux brillent et tes cheveux se dressent sur ta tête. Tu es en mode Super Saiyan, rien ne peut t’arrêter, Thor peut aller se rhabiller.",
@@ -34,22 +39,26 @@ $(document).ready(function(){
             nextstep1:4,
             nextstep2:4,
             retour:1,
+            bouton:""
         },
         {
+            page:4,
             titre:'Fin Tragique',
             img : 'chat.png',
             text :"Voyant que tu t’es rendormi, ton chat vient s’allonger sur ton visage en ronronnant. Tu meurs, étouffé dans ton sommeil. On te l’avait bien dit de prendre un poisson rouge.",
             choix1: "",
             choix2: "",
-            nextstep1:4,
-            nextstep2:4,
+            nextstep1:1,
+            nextstep2:1,
             retour:1,
+            bouton:"Recommencer"
         }, 
 
 
 
 
         {   //4
+            page:2,
             titre:'Call du matin',
             img : 'call.png',
             text :"Tu t'apprêtes à rédiger un mail client, mais ton patron t’appelle en visio pour une réu importante.",
@@ -58,8 +67,10 @@ $(document).ready(function(){
             nextstep1:5,
             nextstep2:6,
             retour:1,
+            bouton:""
         }, 
         {
+            page:3,
             titre:'Fin Tragique',
             img : 'call.png',
             text :"Ton patron habite au dessus de chez toi. Furieux, il débarque dans ton appart et saccage tout. Oui, ton patron finira en prison, mais toi, tu es mort et re-mort.",
@@ -68,16 +79,19 @@ $(document).ready(function(){
             nextstep1:7,
             nextstep2:7,
             retour:4,
+            bouton:""
         }, 
         {
-        titre:"C'est bien",
-        img : 'call.png',
-        text :"Grâce à ton énergie, tu participes à la réunion avec entrain. Tu as fait une excellente impression, ton boss va certainement repenser à cette prime que tu lui as demandé à Noël dernier !",
-        choix1:"" ,
-        choix2:"" ,
-        nextstep1:7,
-        nextstep2:7,
-        retour:4,
+            page:4,
+            titre:"C'est bien",
+            img : 'call.png',
+            text :"Grâce à ton énergie, tu participes à la réunion avec entrain. Tu as fait une excellente impression, ton boss va certainement repenser à cette prime que tu lui as demandé à Noël dernier !",
+            choix1:"" ,
+            choix2:"" ,
+            nextstep1:4,
+            nextstep2:4,
+            retour:4,
+            bouton:"Recommencer"
         }, 
 
 
@@ -89,6 +103,7 @@ $(document).ready(function(){
 
         {
             //7
+            page:2,
             titre:'Sauter une pause',
             img : 'manger.png',
             text :"Il est 13h et ton ventre se mets à grogner.",
@@ -97,8 +112,10 @@ $(document).ready(function(){
             nextstep1:9,
             nextstep2:8,
             retour:4,
+            bouton:""
         }, 
         {
+            page:3,
             titre:"C'est bien",
             img : 'manger.png',
             text :"Tu te remplis la panse, devant “Happy tree friends”. Heureux de manger ton plat préféré, tu profite de cette pause bien méritée !",
@@ -107,22 +124,26 @@ $(document).ready(function(){
             nextstep1:10,
             nextstep2:10,
             retour:7,
+            bouton:""
         }, 
         {
+            page:4,
             titre:'Fin tragique',
             img : 'manger.png',
             text :"Le reste de bouffe d’hier se sent délaissé. D’un grincement, la porte du frigo s’ouvre, et un mix de pâtes au thon et de yaourts bon marché se rue sur toi pour te tuer.",
             choix1: "",
             choix2: "",
-            nextstep1:10,
-            nextstep2:10,
+            nextstep1:7,
+            nextstep2:7,
             retour:7,
+            bouton:"Recommencer"
         }, 
 
 
 
         {
             //10
+            page:2,
             titre:'Sport ou Netflix',
             img : 'netflix.png',
             text :"Tu as fini de travailler, tu as du temps libre devant toi.",
@@ -131,8 +152,10 @@ $(document).ready(function(){
             nextstep1:11,
             nextstep2:12,
             retour:7,
+            bouton:""
         }, 
         {
+            page:3,
             titre:"C'est bien",
             img : 'netflix.png',
             text :"Ton corps est désormais bien sculpté. Le mojo qui se dégage de toi est palpable. Ton crush like ta photo de profil !",
@@ -141,16 +164,19 @@ $(document).ready(function(){
             nextstep1:13,
             nextstep2:13,
             retour:10,
+            bouton:""
         }, 
         {
+            page:4,
             titre:'Fin tragique',
             img : 'fin-netflix.png',
             text :"Tu es plongé dans l’histoire. Littéralement. Ton esprit est aspiré par la télévision et… Tu deviens un zombie à ton tour. Au moins tu regardais pas TPMP (non pas que ça change quelque chose…).",
             choix1: "",
             choix2: "",
-            nextstep1:13,
-            nextstep2:13,
+            nextstep1:10,
+            nextstep2:10,
             retour:10,
+            bouton:"Recommencer"
         }, 
 
 
@@ -158,6 +184,7 @@ $(document).ready(function(){
 
         {
             //13
+            page:2,
             titre:'Se coucher',
             img : 'coucher.png',
             text :"Après une longue journée, il est enfin temps que tu ailles te reposer.",
@@ -166,8 +193,10 @@ $(document).ready(function(){
             nextstep1:14,
             nextstep2:15,
             retour:10,
+            bouton:""
         }, 
         {
+            page:3,
             titre:"C'est bien",
             img : 'coucher.png',
             text :"Ta journée s’est parfaitement déroulée ! Grâce à ton courage et ta persévérance, tu as réussi à : décrocher une prime, amorcer une discussion avec ton crush, avoir un corps de rêve, tout en te gardant du temps pour toi et avec tes amis ! Voilà une médaille. Tu peux l’imprimer, l’encadrer et te rappeler à quel point tu es génial chaque fois que tu poseras les yeux dessus !",
@@ -176,16 +205,19 @@ $(document).ready(function(){
             nextstep1:16,
             nextstep2:16,
             retour:13,
+            bouton:""
         }, 
         {
+            page:4,
             titre:'Fin tragique',
             img : 'coucher-tragique.PNG',
             text :"Tu savais que devant un écran, on cligne moins souvent des yeux ? Tes globes oculaires se dessèchent et tombent de leurs orbites. Maintenant tu sais.",
             choix1: "",
             choix2: "",
-            nextstep1:16,
-            nextstep2:16,
+            nextstep1:13,
+            nextstep2:13,
             retour:13,
+            bouton:"Recommencer"
         }, 
         
         
@@ -194,17 +226,14 @@ $(document).ready(function(){
     var index = 0;
     remplace(object,0);
 
-
-    $("li").click(function(){
-        $("li").removeClass("active");
-        $(this).addClass("active");
-    });
-    $("svg").click(function(){
+    $("#back").click(function(){
         remplace(object,object[index].retour);
         index = object[index].retour;
     });
 
-    $("a").click(function(){
+    $(".next,.choice-item").click(function(){
+        $(".choice-item").removeClass("active");
+        $(this).addClass("active");
         var init = $(".active").data("choice");
         if(init == 1){
             remplace(object,object[index].nextstep1);
@@ -216,14 +245,26 @@ $(document).ready(function(){
         }
     });
     function remplace(object,i){
+        if(object[i].page == 1){
+            $('body').attr('class','pres');
+        }
+        else if(object[i].page == 2){
+            $('body').attr('class','choice');
+        }
+        else if(object[i].page == 3){
+            $('body').attr('class','bon-rep rep');
+        }
+        else{
+            $('body').attr('class','mauv-rep rep');
+        }
         $("#titre").text(object[i].titre);
         $("#img").attr("src","./IMG/"+object[i].img);
         $("#text").text(object[i].text);
-        $(".choice-item").eq(0).text(object[i].choix1)
+        $(".choice-item > p").eq(0).text(object[i].choix1)
         $("li").removeClass("active");
         $(".choice-item").eq(0).addClass('active')
-        $(".choice-item").eq(1).text(object[i].choix2)
-        $("#next").text("Suivant");
+        $(".choice-item > p").eq(1).text(object[i].choix2)
+        $("#next").text(object[i].bouton);
     };
 
 });

@@ -13,7 +13,7 @@
         </div>
         <div class="contain">
             <div class="header">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1{fill:none;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><path d="M13,26a1,1,0,0,1-.71-.29l-9-9a1,1,0,0,1,0-1.42l9-9a1,1,0,1,1,1.42,1.42L5.41,16l8.3,8.29a1,1,0,0,1,0,1.42A1,1,0,0,1,13,26Z"/><path d="M28,17H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z"/></g><g id="frame"><rect class="cls-1" height="32" width="32"/></g></svg>
+                <svg id="back"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.cls-1{fill:none;}</style></defs><title/><g data-name="Layer 2" id="Layer_2"><path d="M13,26a1,1,0,0,1-.71-.29l-9-9a1,1,0,0,1,0-1.42l9-9a1,1,0,1,1,1.42,1.42L5.41,16l8.3,8.29a1,1,0,0,1,0,1.42A1,1,0,0,1,13,26Z"/><path d="M28,17H4a1,1,0,0,1,0-2H28a1,1,0,0,1,0,2Z"/></g><g id="frame"><rect class="cls-1" height="32" width="32"/></g></svg>
                 <h1 id="titre">Bienvenue</h1>
             </div>
             <div class="container-img">
@@ -23,14 +23,20 @@
                 <p id="text"></p>
             </div>
             <div class="contain-choice">
-                <ul id="choice">
-                    <li class="choice-item" data-choice="1"></li>
-                    <li class="choice-item "data-choice="2"></li>
-                </ul>
+                <div class="choice-item" data-choice="1">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolorem.</p>
+                </div>
+                <div class="choice-item" data-choice="2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, possimus.</p>
+                </div>
+
                 
             </div>
             <div class="contain-next">
-                <a href="#next" class="h1" id="next">Commencer</a>
+                <a href="#next" class="h1 next"  id="next">Commencer</a>
+                <a href="#next" class="next-svg next">
+                    <svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="96px" height="96px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><path xmlns="http://www.w3.org/2000/svg" d="M12,52h62.344L53.172,73.172c-1.562,1.562-1.562,4.094,0,5.656c1.562,1.562,4.095,1.562,5.657,0l28-28    c1.562-1.562,1.562-4.095,0-5.656l-28-28C58.048,16.391,57.024,16,56,16c-1.023,0-2.047,0.391-2.828,1.172    c-1.562,1.562-1.562,4.095,0,5.656L74.344,44H12c-2.209,0-4,1.791-4,4S9.791,52,12,52z"/></svg>
+                </a>
             </div>
 
         </div>
