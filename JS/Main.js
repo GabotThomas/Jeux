@@ -60,7 +60,7 @@ $(document).ready(function(){
         {   //4
             page:2,
             titre:'Call du matin',
-            img : 'cbcall.png',
+            img : 'call.png',
             text :"Tu t'apprêtes à rédiger un mail client, mais ton patron t'appelle en visio pour une réu importante.",
             choix1: "Tu refuses le call, tu trouveras bien une excuse.",
             choix2: "Tu acceptes le call prêt à travailler et à réussir ta vie.",
@@ -70,26 +70,26 @@ $(document).ready(function(){
             bouton:""
         }, 
         {
-            page:3,
+            page:4,
             titre:'Fin Tragique',
             img : 'ftcall.png',
             text :"Ton patron habite au dessus de chez toi. Furieux, il débarque dans ton appart et saccage tout. Oui, ton patron finira en prison, mais toi, tu es mort et re-mort.",
             choix1:"" ,
             choix2:"" ,
-            nextstep1:7,
-            nextstep2:7,
+            nextstep1:4,
+            nextstep2:4,
             retour:4,
             bouton:""
         }, 
         {
-            page:4,
+            page:3,
             titre:"C'est bien",
-            img : 'call.png',
+            img : 'cbcall.png',
             text :"Grâce à ton énergie, tu participes à la réunion avec entrain. Tu as fait une excellente impression, ton boss va certainement repenser à cette prime que tu lui as demandé à Noël dernier !",
             choix1:"" ,
             choix2:"" ,
-            nextstep1:4,
-            nextstep2:4,
+            nextstep1:7,
+            nextstep2:7,
             retour:4,
             bouton:" "
         }, 
@@ -219,6 +219,22 @@ $(document).ready(function(){
             retour:13,
             bouton:" "
         }, 
+
+
+
+        //16
+        {
+            page:5,
+            titre:'Fin',
+            img : '',
+            text :"Merci",
+            choix1: "",
+            choix2: "",
+            nextstep1:0,
+            nextstep2:0,
+            retour:13,
+            bouton:" "
+        }, 
         
         
            
@@ -254,8 +270,11 @@ $(document).ready(function(){
         else if(object[i].page == 3){
             $('body').attr('class','bon-rep rep');
         }
-        else{
+        else if(object[i].page == 4){
             $('body').attr('class','mauv-rep rep');
+        }
+        else{
+            $('body').attr('class','fin');
         }
         $("#titre").text(object[i].titre);
         $("#img").attr("src","./IMG/"+object[i].img);
